@@ -1,15 +1,6 @@
 # Assignment 3 - Strings
 In this assignment you will write a Java program that calculates the value of a property based on its size and the current market value per square foot. The program should prompt the user for the property details and then generate a report that includes the property details and the calculated value. The market value per square foot should be looked up from a `MarketValueMapper` class that takes, among other things, a zip code as input. The zip code is used by the `MarketValueMapper` to determine the market value per square foot.
 
-## Assignment Submission
-You will submit your assignment using GitHub Classroom.  When you are finished and want to make your final submission, use the checkin comment "FINAL SUBMISSION":
-
-        git add .
-        git commit -m "FINAL SUBMISSION"
-        git push origin main
-
-Any submission not having this comment will be assumed to be a work-in-progress and therefore will be ignored.  This implies that you must make your final push with this commit comment before the deadline.
-
 ## Input
 Your program will prompt the user for all the information needed about the property as seen in the Output
 section below. Be sure to configure your `Scanner` correctly to collect the data accordingly.
